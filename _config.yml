@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 full_rebuild: true
 name: Porch Effect
 description: the material experience for jekyll
@@ -129,3 +130,6 @@ prose:
           label: "YouTube Video ID"
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 4c97d789342c2e25540c1a968e3af2d57038a91e
