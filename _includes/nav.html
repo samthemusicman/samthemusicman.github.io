@@ -8,10 +8,13 @@
                     <a class="homelink" href="{{ site.baseurl | replace: '//', '/' }}/">Home</a>
                 </li>
                 <li>
-                    <a href="{{ site.baseurl | replace: '//', '/' }}/archive">Archive</a>
+                    <a href="{{ site.baseurl | replace: '//', '/' }}/about-us">About us</a>
                 </li>
                 <li>
-                    <a href="{{ site.baseurl | replace: '//', '/' }}/typography">Typography</a>
+                    <a href="{{ site.baseurl | replace: '//', '/' }}/archives">Archives</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl | replace: '//', '/' }}/contact-us">Contact us</a>
                 </li>
                 <li><a class="dropdown-button" href="#" data-activates='drop-example'>Page Layouts&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
                 </li>
@@ -45,10 +48,6 @@
                 {% if site.tumblr %}
                 <li class="social">
                     <a href="{{ site.tumblr }}" class="tumblr"><i class="fa fa-tumblr"></i></a>
-                </li>
-                {% endif %} {% if site.pinterest %}
-                <li class="social">
-                    <a href="{{ site.pinterest }}" class="pinterest"><i class="fa fa-pinterest"></i></a>
                 </li>
                 {% endif %} {% if site.instagram %}
                 <li class="social">
